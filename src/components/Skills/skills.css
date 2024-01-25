@@ -1,0 +1,290 @@
+#skills {
+    overflow: hidden;
+    /* height: 110vh; */
+    width: 100vw;
+    max-width: 85rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.skillTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.skillDesc {
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 51rem;
+    padding: 0 2rem;
+}
+
+.skillBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+
+.skillBarImg {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.skillBarText>p {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+@media screen and (max-width:720px) {
+    .skillBarText>p {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .skillBarText>p {
+        font-size: 3vw;
+    }
+    .skillBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .skillBarText>h2 {
+        font-size: 5vw;
+    }
+}
+
+
+/* .section-services {
+    position: relative;
+    background-color: rgb(221, 219, 219);
+    padding: 0 12rem;
+    height: 95vh;
+  } */
+  
+  .card {
+  margin: 2rem;
+  transition: transform .2s ease;
+  
+  }
+
+  .card:hover {
+    transform: translateY(-1rem);  
+  }
+
+  .card__frame {
+    height: 25rem;
+    position: relative;
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 15rem;
+    background-color: #fff;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    transition: all .8s ease;
+    overflow: hidden;  
+  }
+   
+  .card__frame:hover .card__front--upperhalf1 {
+  transform: translateY(-8.2rem);
+  } 
+  
+  .card__frame:hover .card__front--lowerhalf1 {
+    transform: translateY(8.2rem);  
+    } 
+  
+    .card__frame:hover .card__label {
+      color: #fff;
+    } 
+  
+.card__front--upperhalf1 {
+    height: 50%;
+    border-bottom: solid 1px black;
+    position: relative;
+    transition: all .8s ease;
+}
+  
+  .card__front--lowerhalf1 {
+    height: 50%;
+    border-top: solid 1px black; 
+    transition: all .8s ease;
+    position: relative;
+    /* z-index: 20; */
+  }
+
+  
+  .card__label {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-weight: 700; */
+    color: white;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translateX(-48%);
+    letter-spacing: .5rem;
+    transition: all .2s .9s ease;  
+    }
+
+    .services__content {
+        color: red;
+        position: absolute;
+        top: 3.9rem;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;;
+        
+    } 
+
+    .card__button {
+        text-align: center;
+      }
+      
+      .card__button--popup {
+        text-align: center;
+        margin-top: 3.5rem;
+      }
+      
+      .card--btn {
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        margin: 5px;
+        padding: 1rem 2.5rem;
+        display: inline-block;
+        border-radius: 10rem;
+        position: relative;
+        font-size: 1.4rem;
+        border: none;
+        cursor: pointer; 
+        color: rgb(56, 54, 54);
+        transition: all .3s;
+      
+      }
+       .card--btn:hover {
+         background-color: red;    /*#103E29 */
+        transform: translateY(-0.5rem);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); 
+        color: #fff;
+      
+      } 
+      
+      .card--btn:active {
+        outline: none;
+        color: #fff;
+      } 
+      
+      .styleminionfart {
+        padding-bottom: 1.3rem;
+      } 
+      
+      .about {
+        height: 11rem;
+        margin: 0;
+        padding: 0rem;
+        
+      } 
+            
+      .services__text {
+        color: #000;
+        text-align: center;
+        margin: -1rem 0;
+        padding: 0;
+        /* padding-bottom: 4rem; */
+        width: 12rem;
+        font-size: 0.5rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        overflow: hidden;
+      }
+
+      .services__text2 {
+        color: #000;
+        text-align: center;
+        margin-left: 0.5rem;
+        padding: 0;
+        /* padding-bottom: 4rem; */
+        width: 12rem;
+        font-size: 0.5rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        overflow: hidden;
+      }
+      .services__text3 {
+        color: #000;
+        text-align: center;
+        margin-left: 1.3rem;
+        margin-top: 2.1rem;
+        padding: 0;
+        /* padding-bottom: 4rem; */
+        width: 12rem;
+        font-size: 0.5rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        overflow: hidden;
+      }
+
+
+      
+
+    .card__front--upperhalf1--color1 {
+    background-image: linear-gradient(to bottom right, #189c75 , #0f2918);
+    }
+  
+  .card__front--lowerhalf1--color1 { 
+  background-image: linear-gradient(to top left, #0f2918 , #189c75);
+  }
+  
+  .card__front--upperhalf1--color2 {
+    background-image: linear-gradient(to bottom right, #ff4500 , rgb(5, 46, 29));
+    }
+  
+  .card__front--lowerhalf1--color2 { 
+  background-image: linear-gradient(to top left, rgb(5, 46, 29) , #ff4500);
+  }
+  
+  .card__front--upperhalf1--color3 {
+    background-image: linear-gradient(to bottom right, blue , rgb(5, 46, 29));
+    }
+  
+  .card__front--lowerhalf1--color3 { 
+  background-image: linear-gradient(to top left, rgb(5, 46, 29) , blue);
+  }
+  
+  @media screen and (min-width:720px) {
+    
+    .skillBar {
+        display: none;
+    }
+}
+  @media screen and (max-width:720px) {
+    
+    .card {
+        display: none;
+    }
+}
