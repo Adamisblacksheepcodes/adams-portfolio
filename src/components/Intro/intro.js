@@ -1,7 +1,7 @@
 import React from 'react';
 import './intro.css';
 import bg from '../../assets/image.png';
-import Lo from '../../assets/Lo.png';
+import Gru from '../../assets/Gru.png';
 import { Link } from 'react-scroll';
 
 const Intro = () => {
@@ -25,7 +25,7 @@ const Intro = () => {
 
 
             </div>
-            <img src={Lo} alt="Profile" className="bg" />
+            <img src={Gru} alt="Profile" className="bg" />
             <div class="flash">
 				<p class="flash__hello">"Hello world"</p>
 				<p class="flash__script"> script </p>
