@@ -1,11 +1,11 @@
 import './contact.css';
-import Walmart from '../../assets/walmart.png';
-import Adobe from '../../assets/adobe.png';
-import Microsoft from '../../assets/microsoft.png';
-import Facebook from '../../assets/facebook.png';
-import facebookIcon from '../../assets/facebook-icon.png';
-import twitterIcon from '../../assets/twitter.png';
-import youtubeIcon from '../../assets/youtube.png';
+import reduxlogo from '../../assets/reduxlogo.png';
+import reactlogo2 from '../../assets/reactlogo2.png';
+import jslogo from '../../assets/jslogo.png';
+import tailwindlogo from '../../assets/tailwindlogo.png';
+import githublogo from '../../assets/githublogo.png';
+import linkedinlogo from '../../assets/linkedinlogo.png';
+import twitter from '../../assets/twitter.png';
 import instagramIcon from '../../assets/instagram.png';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -36,10 +36,10 @@ const Contact = () => {
                 solutions for diverse projects                    
                 </span>
                 <div className="clientImgs">
-                    <img src={Walmart} alt="Client" className="clientImg" />
-                    <img src={Adobe} alt="Client" className="clientImg" />
-                    <img src={Microsoft} alt="Client" className="clientImg" />
-                    <img src={Facebook} alt="Client" className="clientImg" />                   
+                    <img src={reactlogo2} alt="Client" className="clientImg" />
+                    <img src={reduxlogo} alt="Client" className="clientImg" />
+                    <img src={jslogo} alt="Client" className="clientImg" />
+                    <img src={tailwindlogo} alt="Client" className="clientImg" />                   
                 </div>
             </div>
             <div id="contact">
@@ -51,9 +51,9 @@ const Contact = () => {
                     <textarea name="message" placeholder='Your Message' rows={5} className='msg' ></textarea>
                     <button type="submit" value="Send" className='submitBtn'>Submit</button>
                     <div className="links">
-                        <img src={facebookIcon} alt="Facebook" className="link" />
-                        <img src={twitterIcon} alt="Twitter" className="link" />
-                        <img src={youtubeIcon} alt="YouTube" className="link" />
+                        <img src={githublogo} alt="github" className="link" />
+                        <img src={linkedinlogo} alt="LinkedIn" className="link" />
+                        <img src={twitter} alt="Twitter" className="link" />
                         <img src={instagramIcon} alt="Instagram" className="link" />
                     </div>
                 </form>
