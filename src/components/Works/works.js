@@ -1,4 +1,5 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
 import './works.css';
 // import Portfolio1 from '../../assets/portfolio-1.png';
 import imgspott from '../../assets/imgspott.png';
@@ -25,19 +26,27 @@ const Works = () => {
             <button className="workBtn">See More</button><div className="worksImgs" />
             <div class="workcardcontainer">
                 <div class="workcardesrp">
+                <a href="https://blacksheepcodes.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <img src={imgspott} alt="" className="worksImg" />
-                    <p class="workcardpara">Jamming is a React web application that calls the spotify API and saves a plalist to spotify</p>
+                </a>                     
+                <p class="workcardpara">Jamming is a React web application that calls the spotify API and saves a plalist to spotify</p>
                 </div>
                 <div class="workcardesrp">
-                    <img src={imghylyt} alt="" className="worksImg" />
+                <a href="https://hylyts.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <img src={imghylyt} alt="" className="worksImg" />
+                </a>
                     <p class="workcardpara"> Hylyts was crafted using HTML, CSS, and JavaScript for a seamless and eco-friendly user experience."</p>
                 </div>
                 <div class="workcardesrp">
+                <a href="https://abbyevents.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <img src={imgabby} alt="" className="worksImg" />
+                </a>
                     <p class="workcardpara">Abby's Event is an interactive event website built with HTML, CSS, and JavaScript.</p>
                 </div>
                 <div class="workcardesrp">
+                <a href="https://ambiencehotel.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <img src={imgamb} alt="" className="worksImg" />
+                </a>
                     <p class="workcardpara">Ambience Hotel is a hotel website with a seamless online experience, elegantly designed with HTML, CSS, and JavaScript.</p>
                 </div>
                 <div class="workcardesrp">
