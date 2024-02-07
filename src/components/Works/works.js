@@ -26,7 +26,7 @@ const Works = () => {
             <button className="workBtn">See More</button><div className="worksImgs" />
             <div class="workcardcontainer">
                 <div class="workcardesrp">
-                <a href="https://blacksheepcodes.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://jamming-playlist.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <img src={imgspott} alt="" className="worksImg" />
                 </a>                     
                 <p class="workcardpara">Jamming is a React web application that calls the spotify API and saves a plalist to spotify</p>
