@@ -49,7 +49,12 @@
     padding: 0.75rem 3.5rem;
     border: 2px solid #19d6c6;
     letter-spacing: 0.5rem;
-    /* border-radius: 2rem; */
+    transition: background 3s ease;
+    border-radius: 2rem;
+}
+.btn:hover {
+  background: #19D6BB;
+  cursor: pointer;
 }
 
 .btnImg {
